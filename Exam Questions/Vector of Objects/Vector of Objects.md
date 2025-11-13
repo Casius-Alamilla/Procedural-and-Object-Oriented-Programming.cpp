@@ -26,8 +26,9 @@ Write a complete C++ program that meets the following requirements:
 	3. Price on Day 2
 	4. Percent change
 
+---
 
-Sample Run
+Sample Run:
 
 1. Enter the number of stocks: 3
 	1. Enter data for stock 1:
