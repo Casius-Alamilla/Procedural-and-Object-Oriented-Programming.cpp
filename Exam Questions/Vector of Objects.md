@@ -1,4 +1,4 @@
-/*
+
 Write a complete C++ program that meets the following requirements:
 
 Declare a struct named stock.
@@ -54,4 +54,3 @@ Name: CompanyB
 Price on Day 1: 2.67
 Price on Day 2: 10.8
 Percent change: 304.494%
-*/
