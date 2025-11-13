@@ -29,24 +29,24 @@ Write a complete C++ program that meets the following requirements:
 
 Sample Run
 
-Enter the number of stocks: 3
-		Enter data for stock 1:
-		Name: CompanyA
-		Price on Day 1: 23.67
-		Price on Day 2: 25.78
+1. Enter the number of stocks: 3
+	1. Enter data for stock 1:
+	2. Name: CompanyA
+	3. Price on Day 1: 23.67
+	4. Price on Day 2: 25.78
 
-Enter data for stock 2:
-		Name: CompanyB
-		Price on Day 1: 2.67
-		Price on Day 2: 10.8
+2. Enter data for stock 2:
+	1. Name: CompanyB
+	2. Price on Day 1: 2.67
+	3. Price on Day 2: 10.8
 
-Enter data for stock 3:
-		Name: CompanyC
-		Price on Day 1: 50.8
-		Price on Day 2: 120.88
+3. Enter data for stock 3:
+	1. Name: CompanyC
+	2. Price on Day 1: 50.8
+	3. Price on Day 2: 120.88
 
-Stock with greatest positive percent change:
-		Name: CompanyB
-		Price on Day 1: 2.67
-		Price on Day 2: 10.8
-		Percent change: 304.494%
+4. Stock with greatest positive percent change:
+	1. Name: CompanyB
+	2. Price on Day 1: 2.67
+	3. Price on Day 2: 10.8
+	4. Percent change: 304.494%
