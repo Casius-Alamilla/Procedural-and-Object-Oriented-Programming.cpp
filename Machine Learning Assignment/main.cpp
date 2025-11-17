@@ -1,3 +1,24 @@
+/*
+    CS 2411 - Machine Learning Assignment
+    Topic: Reinforcement Learning (Q-Learning)
+    Project: Maze Solver AI in C++
+    Student: Casius Alamilla
+
+    Description:
+    This program generates a random, solvable maze and trains a Q-learning
+    reinforcement learning agent to navigate from a start cell (A) to a goal
+    cell (G). It uses file input/output and produces:
+      - maze.txt           : internal maze grid
+      - training_stats.txt : training summary + best action sequence
+      - final_path.txt     : ASCII maze with learned optimal path
+
+    External conceptual references:
+      - Q-learning algorithm and theory from standard RL textbooks.
+      - Open-source Q-learning maze examples (conceptual inspiration,
+        not copied code).
+*/
+
+
 #include <iostream>
 #include <vector>
 #include <fstream>
