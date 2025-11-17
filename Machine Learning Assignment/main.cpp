@@ -259,7 +259,7 @@ void generateRandomMazeToFile(int rows, int cols, double wallChance, const strin
         }
     }
 
-    // Fallback if somehow never solvable (very unlikely).
+    // Fallback if somehow never solvable.
     if (!createdSolvableMaze) {
         cerr << "Warning: could not generate a solvable maze; using open maze.\n";
         maze.grid.assign(rows, string(cols, '.'));
@@ -287,7 +287,7 @@ void generateRandomMazeToFile(int rows, int cols, double wallChance, const strin
     }
 }
 
-// Render maze as ASCII (with borders) for human-friendly view.
+// Render maze as ASCII (with borders)
 vector<string> renderAsciiMaze(const Maze& maze) {
     vector<string> lines;
     int R = maze.rowCount;
@@ -422,7 +422,7 @@ TrainingSummary trainAgentWithQLearning(
         summary.bestRunActions.clear();
     }
 
-    // Write stats to file (without the "first solved" line).
+    // Write stats to file
     ofstream out(statsOutputFile);
     if (out) {
         out << "Training Summary\n";
@@ -487,7 +487,7 @@ void writeAsciiMazeToFile(const Maze& maze, const string& filename) {
     }
 }
 
-// Print file contents to console (helper, not used now).
+// Print file contents to console.
 void printFileToConsole(const string& filename) {
     ifstream in(filename);
     if (!in) {
@@ -503,7 +503,7 @@ void printFileToConsole(const string& filename) {
 }
 
 // --------------------------------------------------
-// NEW: Print just the exact fastest path in the terminal.
+// Print just the exact fastest path in the terminal.
 //
 // Uses:
 //   '#' = walls
@@ -622,7 +622,7 @@ int main() {
         }
     }
 
-    // NEW FLOW:
+    // Flow:
     // 1) Ask to show exact path (dots in grid).
     if (summary.successfulRuns > 0 && finalPathLength > 0 &&
         askYesNo("Do you want to see the exact path the agent took for the fastest solution?")) {
