@@ -11,11 +11,6 @@
       - maze.txt           : internal maze grid
       - training_stats.txt : training summary + best action sequence
       - final_path.txt     : ASCII maze with learned optimal path
-
-    External conceptual references:
-      - Q-learning algorithm and theory from standard RL textbooks.
-      - Open-source Q-learning maze examples (conceptual inspiration,
-        not copied code).
 */
 
 
