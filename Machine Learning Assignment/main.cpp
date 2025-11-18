@@ -14,15 +14,15 @@
 */
 
 
-#include <iostream>
-#include <vector>
-#include <fstream>
-#include <string>
-#include <random>
-#include <ctime>
-#include <algorithm>
-#include <queue>
-#include <climits>
+#include <iostream>   // For input/output: std::cout, std::cin, std::endl
+#include <vector>     // For std::vector dynamic arrays (auto-resizing lists)
+#include <fstream>    // For file input/output: std::ifstream, std::ofstream
+#include <string>     // For using std::string and text manipulation functions
+#include <random>     // For modern random number generation: mt19937, distributions
+#include <ctime>      // For time functions, often used to seed random generators
+#include <algorithm>  // For common algorithms: std::sort, std::find, std::max, etc.
+#include <queue>      // For FIFO std::queue and std::priority_queue containers
+#include <climits>    // For integer limit constants: INT_MAX, INT_MIN, etc.
 
 using namespace std;
 
