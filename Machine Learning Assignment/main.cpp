@@ -646,7 +646,7 @@ int main() {
     // -------------------------------------------
     // 1. Ask the user for maze size: e.g. "6x10"
     // -------------------------------------------
-    cout << "Enter maze size (rows x cols), e.g. 6x10: ";
+    cout << "Enter maze size (rows x cols), example: 6x10 ";
     string sizeInput;
     cin >> sizeInput;
 
