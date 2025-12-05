@@ -11,17 +11,25 @@ Input Parameters:
 3. 2D array sum. This array will store the results
 
 This function does not return any value.
-Example
+
+Example:
+
 n1 =
-1 | 2 | 3
+
+1 | 2 | 3 
+
 4 | 5 | 6
 
 n2 =
-10 | 20 | 30
+
+10 | 20 | 30 
+
 40 | 50 | 60
 
 sum =
-11 | 22 | 33
+
+11 | 22 | 33 
+
 44 | 55 | 66
 
 Output the contents of sum to the console.
