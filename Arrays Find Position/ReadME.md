@@ -1,5 +1,6 @@
 
-##CS 2411
+## CS 2411
+
 Arrays – Find Position Exercise
 Modify the following code so that it outputs to the console screen the position of where the lowest value in the array is located.
 
