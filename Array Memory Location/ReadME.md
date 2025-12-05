@@ -1,5 +1,6 @@
 
-CS 2411
+## CS 2411
+
 Array Memory Location Exercise
 Write a program that uses the sizeof function to provide evidence that array elements are
 stored in adjacent memory locations.
