@@ -13,12 +13,15 @@ Input Parameters:
 This function does not return any value.
 Example
 n1 =
-1 2 3
-4 5 6
+1 | 2 | 3
+4 | 5 | 6
+
 n2 =
-10 20 30
-40 50 60
+10 | 20 | 30
+40 | 50 | 60
+
 sum =
-11 22 33
-44 55 66
+11 | 22 | 33
+44 | 55 | 66
+
 Output the contents of sum to the console.
