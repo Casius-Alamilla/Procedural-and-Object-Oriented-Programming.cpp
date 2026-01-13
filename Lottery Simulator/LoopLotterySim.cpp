@@ -1,6 +1,6 @@
  /* 
 Write a C++ program that will simulate a lottery.
-
+Part 1:
 1. Prompt the user to choose 3 numbers that he thinks will be the lottery numbers (between 0 and
     100, 100 is not included).
 2. Store those numbers in 3 integer variables: num1, num2, num3.
