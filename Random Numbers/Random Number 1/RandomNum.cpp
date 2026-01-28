@@ -14,7 +14,7 @@ int main () {
     srand(time(NULL));
 
     // Generate a random number between 1 and 6
-    int randomNumber = (rand() % 6) + 1;
+    int randomNumber = 1 + (rand() % 6);
     cout << "Random number between 1 and 6: " << randomNumber << endl;
 
     // Generate a random letter (A-Z or a-z) using a single rand
