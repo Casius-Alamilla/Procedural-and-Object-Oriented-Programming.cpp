@@ -25,21 +25,21 @@ Sample Run 2:
 #include <iostream>
 using namespace std;
 
+int main () {
 
-int main() {
+    int number;
+    const char * r [] = {"","I","II","III","IV","V","VI","VII","VIII","IX","X"};
 
-    int n; // Variable to store user input
-    cout << "Enter a number between 1 and 10: "; // Prompt user for a number between 1 and 10
-    
-    if (!(cin >> n)|| n < 1 || n > 10)  // Validate input and convert to Roman numeral if valid
-    cout << "This number is out of range\n"; // Display error message if input is invalid
-    
-    else 
-    {
-    const char * r[] = {"","I","II","III","IV","V","VI","VII","VIII","IX","X"}; // Array of Roman numerals
-    cout << "Roman numeral equivalent = " << r[n]<<'\n'; // Output the Roman numeral equivalent
-    } 
+    cout << "Enter a Number between 1 and 10: " << endl;
+    cin >> number;
+
+    if (number < 1 || number > 10)
+    cout << "This Number is out of range of 1 and 10." << endl;
+
+    else {
+        cout <<"Roman Numeral Equivalent is: " << r[number] << endl;
+    }
 
     return 0;
-
 }
+
