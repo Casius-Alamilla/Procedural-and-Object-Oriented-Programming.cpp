@@ -37,7 +37,7 @@ int main () {
     cout << "This Number is out of range of 1 and 10." << endl;
 
     else {
-        cout <<"Roman Numeral Equivalent is: " << r[number] << endl;
+        cout << "Roman Numeral Equivalent is: " << r[number] << endl;
     }
 
     return 0;
