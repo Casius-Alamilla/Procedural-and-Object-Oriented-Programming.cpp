@@ -14,24 +14,50 @@ least one word. The program will not know how many words are in the file.
 #include <fstream>
 #include <string>
 
+using namespace std;
 
 int main() {
-    std::ifstream inputFile("example.txt");
+    string filename = "words.txt";
     
-    if (!inputFile) {
-        std::cerr << "Error opening file." << std::endl;
+    // Step 1: Create and write to the file
+    cout << "Enter words (type them and press Enter when done):" << endl;
+    cout << "> ";
+    
+    ofstream outFile(filename);
+    if (!outFile) {
+        cerr << "Error: Could not create file!" << endl;
         return 1;
     }
-
-    std::string line;
-    while (std::getline(inputFile, line)) {
-        std::cout << line << std::endl;
+    
+    string input;
+    getline(cin, input);
+    outFile << input;
+    outFile.close();
+    
+    cout << "\nFile saved successfully!" << endl;
+    cout << "-----------------------------------" << endl;
+    
+    // Step 2: Read from the file and display words
+    ifstream inFile(filename);
+    if (!inFile) {
+        cerr << "Error: Could not open file for reading!" << endl;
+        return 1;
     }
-
-    inputFile.close();
+    
+    cout << "Words from file: ";
+    string word;
+    int wordCount = 0;
+    
+    // Read each word separated by space
+    while (inFile >> word) {
+        cout << word << " ";
+        wordCount++;
+    }
+    
+    cout << endl;
+    cout << "Number of words found: " << wordCount << endl;
+    
+    inFile.close();
+    
     return 0;
 }
-
-
-
-
