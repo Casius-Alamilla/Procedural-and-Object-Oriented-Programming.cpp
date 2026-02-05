@@ -1,4 +1,4 @@
-
+# File Input Exercise
 1. Open a file called “words.txt” for input
 
 2. Read in each word from the file. Each word is separated by a space. The file will have at
