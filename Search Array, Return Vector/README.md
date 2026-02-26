@@ -1,3 +1,6 @@
+# Part 1
+
+
 Write a C++ function that will search a 5 x 5 2D array of integers. Name this function Search_Even. 
 
 The 5 x 5 array will be passed as an argument to that function. The function will return a vector that contains every location of where all of the even numbers are located.
@@ -26,4 +29,43 @@ Array Contents->
 
 1 2 3 4 5
 
-The contents of the vector will be-> 0,1,0,3,1,1,1,3,2,1,2,3,3,1,3,3,4,1,4,3
+The contents of the vector will be-> 
+0,1
+
+0,3
+
+1,1
+
+1,3
+
+2,1
+
+2,3
+
+3,1
+
+3,3
+
+4,1
+
+4,3
+
+
+# Part 2
+
+Modify this function such that the function will search a 2D vector of any size. Keep in mind that the size of each row in a 2D Vector can be different. 
+
+For example, row 0 could have a size of 5, row 1 could be empty, and row 2 could have a size of 100. 
+
+Arguments:
+
+
+1. A 2D vector. This will be searched.
+
+
+2. A vector that will store locations. 
+
+This function will not return any values.
+
+Display the locations of where the even numbers are located in the main function.
+
