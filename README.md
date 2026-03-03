@@ -9,15 +9,15 @@ Course Topics: Chapters 1-16 from the textbook.
 4. Loops and Files (Chapter 5)
 5. Functions (Chapter 6)
 6. Arrays and Vectors (Chapter 7)
-7. Searching and Sorting (Ch-8)
-8. Pointers (Ch-9)
-9. String Operations (Ch-10)
-10. Structured Data (Ch-11)
+7. Searching and Sorting (Chapter 8)
+8. Pointers (Chapter 9)
+9. String Operations (Chapter 10)
+10. Structured Data (Chapter 11)
 11. Advanced File Operations (Chapter 12)
-12. Introduction to Classes-I (Ch-13)
-13. Intermediate Class Concepts (Ch-14)
-14. Advanced Class Concepts (Ch-15)
-15. Exceptions and Templates (Ch-16)
+12. Introduction to Classes-I (Chapter 13)
+13. Intermediate Class Concepts (Chapter 14)
+14. Advanced Class Concepts (Chapter 15)
+15. Exceptions and Templates (Chapter 16)
 
 # Book Used 
 Starting out with C++ From Control Structures through Objects, 9th
