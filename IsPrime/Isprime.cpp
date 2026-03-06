@@ -1,3 +1,4 @@
+
 /*
 Write a C++ program that uses a function called IsPrime to determine if a number is prime or not. 
 IsPrime takes in an integer as an argument. IsPrime returns true if the number inputted is prime. It returns false otherwise. 
@@ -7,29 +8,27 @@ The main function will continue to use the loop until the user indicates that th
 
 #include <iostream>
 using namespace std;
+    
 
-
-// Function to check if a number is prime
-bool IsPrime(int num) { // Function definition
-    if (num <= 1) { // Check for numbers less than or equal to 1
-        return false; // 1 and numbers less than 1 are not prime
+bool IsPrime(int num) { 
+    if (num <= 1) { // 1st Check for numbers less than or equal to 1, if <= 1, number is not prime
+        return false; 
     }
-    for (int divisor = 2; divisor * divisor <= num; ++divisor) { // Check divisors from 2 to the square root of num
-        if (num % divisor == 0) { // If num is divisible by any divisor
-            return false; // num is not prime
+    for (int divisor = 2; divisor <= sqrt(num); ++divisor) { // Then 2nd, It Checks if divisors from 2 to the square root of num
+        if (num % divisor == 0) { // If num is divisible any divisor return false, 
+            return false; 
         }
     }
-    return true; // If no divisors found, num is prime
+    return true; // Else returns true, if no divisors are found
 }
 
-// Main function
 int main() {
     char response; // Variable to store user response
     unsigned int num; // Variable to store the input number
 
     do {
-        cout << "Enter a positive integer" << endl; // Prompt user for input
-        cin >> num; // Read the input number
+        cout << "Enter a positive integer" << endl; 
+        cin >> num; 
         if (IsPrime(num)) { // Call IsPrime and check the result
             cout << "This number is prime" << endl; // Output if the number is prime
         } else {
@@ -38,16 +37,18 @@ int main() {
 
         cout << "The prime numbers up to " << num << " are: "; // Output prime numbers up to the input number
         for (unsigned int i = 2; i <= num; ++i) { // Start from 2, the first prime number
-            if (IsPrime(i)) { // Check if i is prime
-                cout << i << " "; // Output the prime number
+            if (IsPrime(i)) { // call and Check if i is prime
+                cout << i << ","; // Output the prime number
             }
         }
         cout << endl;
         cout << "Do you want to quit? (Y/N)" << endl; // Ask user if they want to quit
-        cin >> response; // Get user response
+        cin >> response;
     } while ((response != 'Y') && (response != 'y')); // Continue until user chooses to quit
     return 0;
 }
+
+
 
 
 
